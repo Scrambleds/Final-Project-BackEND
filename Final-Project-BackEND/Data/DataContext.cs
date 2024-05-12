@@ -18,6 +18,8 @@ namespace Final_Project_BackEND.Data
         public DbSet<GradeFilter> GradeFilter { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<OrderVendor> OrderVendors { get; set; }
+        public DbSet<User> User { get; set; }
+        public DbSet<RaweeTest> RaweeTest { get; set; }
 
         internal object ExecuteQuery(string v)
         {
